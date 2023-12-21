@@ -26,7 +26,7 @@ $(document).ready(function () {
 
         $(".tabOpen>div").removeClass("on");
         $(".tabOpen>div").eq(list).addClass("on");
-        // $(".acco>li>h3").removeClass("accoOn");
-        // $(".acco>li>h5").slideUp();
+        $(".acco>li>h3").removeClass("accoOn");
+        $(".acco>li>h5").slideUp();
     });
 });
