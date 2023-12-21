@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    width: 80%;
+    margin: 100px auto 0;
+}
+
+section>p {
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+section>h1 {
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+section .clearFix {
+    margin-bottom: 50px;
+}
+
+section .clearFix>div {
+    float: left;
+    margin-right: 30px;
+    font-size: 1.3em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+section .tabmenu .tabOn {
+    padding-bottom: 3px;
+    border-bottom: 3px solid rgb(255, 0, 4);
+    color: rgb(255, 0, 4);
+}
+
+section .tabOpen {
+    position: relative;
+
+}
+
+section .tabOpen h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+section .tabOpen .party {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+section .tabOpen .party>ul {
+    list-style: disc outside none;
+    margin-left: 10px;
+}
+
+section .tabOpen .party>ul>li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+section .tabOpen .appli {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+section .tabOpen .appli>div {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid rgb(184, 183, 183);
+    padding: 40px 20px;
+}
+
+section .tabOpen .appli>div>p {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section .tabOpen .appli>div>ul>li {
+    margin-bottom: 5px;
+}
+
+section .tabOpen .qna {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+section .tabOpen .qna p {
+    margin-bottom: 20px;
+}
+
+section .tabOpen .qna .acco {
+    width: 100%;
+}
+
+section .tabOpen .qna .acco li {
+    width: 80vw;
+    border-top: 1px solid rgb(224, 223, 223);
+    border-bottom: 1px solid rgb(224, 223, 223);
+    background-color: rgb(244, 242, 242);
+   
+
+}
+
+section .tabOpen .qna .acco>li>h3 {
+    width: 100%;
+    height: 80px;
+    font-size: 1.6em;
+    line-height: 80px;
+    background-color: white;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+section .tabOpen .qna .acco>li>h3.accoOn{
+    background-color: rgb(244, 242, 242);
+}
+
+section .tabOpen .qna .acco>li>h5 {
+    width: 100%;
+    height: 90px;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 20px 20px 0px 20px;
+    display: none;
+}
+section .tabOpen .qna .acco>li>h5{
+    /* display: block; */
+}
+
+section .tabOpen .on {
+    display: block;
+}
